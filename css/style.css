@@ -1,0 +1,35 @@
+*{
+    color: #CAD2C5;
+    background-color: #354F52;
+}
+
+h1, p{
+    text-align: center;
+}
+
+nav{
+    border: solid #CAD2C5;
+}
+
+nav>ul{
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+}
+
+nav>ul>li{
+    padding: 0.75em;
+}
+
+.image{
+    display: flex;
+    justify-content: center;
+}
+
+li{
+    list-style:none
+}
+
+a{
+    text-decoration: none;
+}
